@@ -1,0 +1,31 @@
+SENAC - Projeto Integrador I - Etapa 4
+Clínica Veterinária
+
+REQUISITOS
+- Java 17
+- NetBeans com suporte Maven
+- MySQL Server
+- Internet apenas na primeira abertura para o Maven baixar automaticamente o MySQL Connector/J.
+
+BANCO DE DADOS
+1. Abra o MySQL Workbench.
+2. Abra database/clinica_veterinaria.sql.
+3. Execute o script completo.
+4. Confirme que o schema clinica_veterinaria foi criado.
+
+ABRIR O PROJETO
+1. No NetBeans: File > Open Project.
+2. Selecione a pasta PI_I_Etapa_4_Clinica_Veterinaria_FINAL (a pasta que contém pom.xml).
+3. Aguarde o Maven resolver as dependências.
+4. Execute o projeto.
+
+CONEXÃO MYSQL
+Na primeira operação que acessar o banco, o sistema solicita o usuário e a senha do MySQL local.
+O usuário sugerido é root. A senha NÃO fica gravada no código-fonte.
+
+LOGIN DO SISTEMA
+Usuário: admin
+Senha: admin123
+
+OBSERVAÇÃO
+O MySQL Connector/J é declarado no pom.xml. Portanto, não existe referência local quebrada para um arquivo JAR de outro computador.

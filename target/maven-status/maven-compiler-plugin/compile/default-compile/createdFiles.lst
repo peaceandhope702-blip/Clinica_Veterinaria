@@ -1,0 +1,16 @@
+clinica\Main.class
+modelo\Animal.class
+modelo\Consulta.class
+view\MainFrame.class
+dao\ConsultaDAO.class
+dao\AnimalDAO.class
+modelo\Pagamento.class
+dao\TutorDAO.class
+conexao\Conexao.class
+modelo\Veterinario.class
+dao\PagamentoDAO.class
+dao\UsuarioDAO.class
+dao\VeterinarioDAO.class
+modelo\Tutor.class
+modelo\Usuario.class
+view\LoginFrame.class
